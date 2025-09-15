@@ -12,21 +12,21 @@ export default function Header() {
       </div>
 
       <nav className="hidden md:flex items-center gap-8">
-        <a href="#" className="text-gray-700 hover:text-gray-900 font-medium">
+        <a href="#home" className="text-gray-700 hover:text-gray-900 font-medium transition-colors duration-200">
           Home
         </a>
-        <a href="#" className="text-gray-700 hover:text-gray-900 font-medium">
+        <a href="#features" className="text-gray-700 hover:text-gray-900 font-medium transition-colors duration-200">
           Features
         </a>
-        <a href="#" className="text-gray-700 hover:text-gray-900 font-medium">
+        <a href="#pricing" className="text-gray-700 hover:text-gray-900 font-medium transition-colors duration-200">
           Pricing
         </a>
-        <a href="#" className="text-gray-700 hover:text-gray-900 font-medium">
+        <a href="#testimonials" className="text-gray-700 hover:text-gray-900 font-medium transition-colors duration-200">
           Testimonials
         </a>
       </nav>
 
-      <Button className="bg-[#FFB347] hover:bg-[#FFA726] text-[#2C2C2C] px-6 py-2 rounded-[20px] shadow-md">Sign in</Button>
+      <Button className="bg-[#FFB347] hover:bg-[#FFA726] text-[#2C2C2C] px-6 py-2 rounded-[20px] shadow-md cursor-pointer">Download</Button>
     </header>
   )
 }
